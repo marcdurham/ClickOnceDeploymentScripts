@@ -3,18 +3,15 @@ To deploy your ClickOnce application run the following command from PowerShell:
 
     .\Deploy.ps1 <Revision Number>
 
-### Example:
+#### Example:
     .\Deploy.ps1 12
 
 ### How to set up your environment:
-Download and install AWS Tools for PowerShell:
-    https://sdk-for-net.amazonwebservices.com/latest/AWSToolsAndSDKForNet.msi
+Download and install AWS Tools for PowerShell:  <https://sdk-for-net.amazonwebservices.com/latest/AWSToolsAndSDKForNet.msi>
 
-### Get Region and endpoints from here: 
-    https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region
+Get Region and endpoints from here:  <https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region>
 
-### Get Access Keys for Amazon AWS from here:
-    https://console.aws.amazon.com/iam/home?#/security_credential
+Get Access Keys for Amazon AWS from here:  <https://console.aws.amazon.com/iam/home?#/security_credential>
 
 ### Enable PowerShell scripts to work on your machine:
     Set-ExecutionPolicy -ExecutionPolicy Unrestricted
